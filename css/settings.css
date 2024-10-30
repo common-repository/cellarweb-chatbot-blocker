@@ -1,0 +1,117 @@
+/* CSS for CellarWeb ChatBot Blocker */
+
+body {
+	color: #000;
+}
+
+.CWCB_h3 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.CWCB_header {
+	color: #000;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.CWCB_introtext {
+	padding: 5px 10px;
+	margin: 5px 10px;
+	color: black;
+	background-color: #90ee90;
+}
+
+.CWCB_settings_fields {
+	margin-left: 5%;
+	/* width: 70%; */
+	margin-right: 5%;
+	margin-top: -2%;
+}
+
+.CWCB_settings {
+	padding: 10px;
+}
+
+.CWCB_options {
+	width: 75%;
+	float: left;
+	overflow: hidden;
+}
+
+.CWCB_checkbox {
+	vertical-align: baseline !important;
+}
+
+.CWCB_shadow {
+	-webkit-box-shadow: 5px 5px 3px 0 rgba(128,123,128,1);
+	   -moz-box-shadow: 5px 5px 3px 0 rgba(128,123,128,1);
+	        box-shadow: 5px 5px 3px 0 rgba(128,123,128,1);
+}
+
+.CWCB_textarea, .CWCB_textarea[readonly] {
+	margin-left: 10%;
+	background-color: lightgoldenrodyellow;
+}
+
+.CWCB_sidebar {
+	float: left;
+	width: 20%;
+	overflow: hidden;
+	background-color: #7fffd4;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: thin solid #39f;
+	margin-left: 10px;
+}
+
+.CWCB_footer {
+	float: left;
+	background-color: #9fe8ff;
+	padding-left: 15px;
+	width: 100%;
+	margin-top: 15px;
+	margin-right: 0;
+	margin-bottom: 15px;
+	margin-left: 0;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+#footer-thankyou, #footer-upgrade {
+	display: none !important;
+}
+
+.CWCB_box_yellow {
+	background-color: lightyellow;
+	border: 1px solid black;
+	padding: 5px 20px 5px 15px;
+	font-family: 'Courier New', Courier, monospace;
+	margin-left: 25px;
+	width: auto;
+	min-width: 50%;
+	display: inline-block;
+}
+
+.CWCB_box_green {
+	background-color: lightgreen;
+	border: 1px solid black;
+	padding: 5px 20px 5px 15px;
+	font-family: 'Courier New', Courier, monospace;
+	margin-left: 25px;
+	width: auto;
+	min-width: 50%;
+	display: inline-block;
+}
+
+.CWCB_box_cyan {
+	background-color: #9fe8ff;
+	padding: 5px 10px;
+}
+/* END */
